@@ -13,16 +13,26 @@ Backbone.Marionetteのサンプルコードです。
 * jade
 
 詳しくはpackage.jsonを参照ください。
-Javascriptはcoffeescriptで書いています。
-エントリーはboot.coffeeです。
+Javascriptはcoffeescript/es6で書いています。
+エントリーはboot.{coffee,js}です。
 
 ### ビルド
 
 ビルドツールはgulp+webpackです。
 詳しくはgulpfile.coffee,webpack.config.coffeeを参照してください。
 
+#### coffeescript
+
 ```
 $ npm install
-$ gulp
+$ gulp coffee index.html
+$ php -S 0.0.0.0:8000 -t public
+```
+
+#### es6
+
+```
+$ npm install
+$ gulp js index.html
 $ php -S 0.0.0.0:8000 -t public
 ```
