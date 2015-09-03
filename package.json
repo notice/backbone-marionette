@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "backbone.marionette",
+  "version": "1.0.0",
+  "description": "",
+  "author": "kan",
+  "devDependencies": {
+    "backbone": "^1.2.2",
+    "backbone.marionette": "^2.4.2",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.7.1",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1",
+    "webpack": "^1.12.0",
+    "webpack-stream": "^2.1.0"
+  }
+}
