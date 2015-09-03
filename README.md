@@ -24,15 +24,15 @@ Javascriptはcoffeescript/es6で書いています。
 #### coffeescript
 
 ```
-$ npm install
-$ gulp coffee index.html
+$ npm install
+$ gulp js index.html
 $ php -S 0.0.0.0:8000 -t public
 ```
 
 #### es6
 
 ```
-$ npm install
-$ gulp js index.html
+$ npm install
+$ gulp es6 index.html
 $ php -S 0.0.0.0:8000 -t public
 ```
