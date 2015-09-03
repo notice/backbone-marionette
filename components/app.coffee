@@ -14,10 +14,6 @@ App = Marionette.Application.extend
     options = options || {}
     Backbone.history.navigate(route, options)
 
-app = new App {
-  navigate: (route, options) ->
-    options = options || {}
-    Backbone.history.navigate(route, options)
-}
+app = new App
 app.addRegions content: '#content'
 module.exports = app
